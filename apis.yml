@@ -1,8 +1,28 @@
 aid: smarterdx
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/smarterdx.png
 name: SmarterDx
-description: 'SmarterDx is a company surfaced as a portfolio company of bessemer-venture-partners and
-  added to the API Evangelist network as a stub for enrichment. Sector: healthcare. This profile is a
-  lead awaiting the enrichment pipeline.'
+description: >-
+  SmarterDx builds clinical AI software that hospitals and health systems use to
+  analyze the complete record of every patient and fully capture the value of
+  care delivered. Its products span the revenue cycle — SmarterPrebill,
+  SmarterCharges, SmarterDenials, SmarterNotes, and SmarterUtilization —
+  surfacing missing diagnoses, validating charges, defending against payer
+  denials, improving clinical documentation, and supporting utilization
+  management decisions. The company serves 85+ health systems and operates as an
+  enterprise B2B vendor: it publishes no public developer portal, API
+  documentation, or self-serve sign-up, and maintains HIPAA compliance to
+  protect the privacy of its health-system partners.
 url: https://raw.githubusercontent.com/api-evangelist/smarterdx/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +32,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
 - Healthcare
+- Clinical AI
+- Revenue Cycle Management
+- Health Systems
+- Clinical Documentation
+- HIPAA
+- Artificial Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -25,3 +51,18 @@ maintainers:
 common:
 - type: Website
   url: https://smarterdx.com/
+- type: Support
+  url: https://smarterdx.com/contact
+- type: TermsOfService
+  url: https://smarterdx.com/legal/terms
+- type: PrivacyPolicy
+  url: https://smarterdx.com/legal/privacy
+- type: GitHubOrganization
+  url: https://github.com/smarterdx
+- type: DomainSecurity
+  url: security/smarterdx-domain-security.yml
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
